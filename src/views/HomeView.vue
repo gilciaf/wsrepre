@@ -64,7 +64,7 @@ export default {
      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
      margin-left: 3.5%;     
    }
- @media screen and(max-width:412px) {
+ @media screen and (max-width:412px) {
    .banner{
      display: block;
    }

@@ -93,7 +93,7 @@ export default {};
     margin-top: 4%;
   }
 }
-@media screen and(max-width:412px) {
+@media screen and (max-width:412px) {
   .main {
     .extrutura {
       flex-direction: column;

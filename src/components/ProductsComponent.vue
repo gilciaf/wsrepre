@@ -56,7 +56,7 @@ export default {
         },
         {
           id: 2,
-          link: "https://bracol.pro/site/conteudo/2-fujiwara.html",
+          link: "https://bracol.pro/fujiwara",
           path: "fujiwara.png",
           width: "145px",
           empresa: "Fujiwara",
@@ -72,10 +72,10 @@ export default {
         },
         {
           id: 3,
-          link: "",
+          link: "http://www.steelflex.pro/",
           path: "steelflex.png",
           width: "130px",
-          empresa: "Bracol",
+          empresa: "STEELFLEX",
           title: "Equipamentos de Proteção",
           text: [
             "Capacetes - Coletes RefleXivos",
@@ -88,7 +88,7 @@ export default {
         },
         {
           id: 4,
-          link: "https://moovbsb.com.br/",
+          link: "https://www.steelflex.pro/filtro/linha-healthcare/ ",
           path: "moov.svg",
           width: "130px",
           empresa: "Moov",
@@ -110,7 +110,7 @@ export default {
         },
         {
           id: 6,
-          link: "https://www.motosafe.com.br/",
+          link: "https://bracol.pro/site/product/search?q=MOTOSAFE",
           path: "motosafe.png",
           width: "130px",
           empresa: "Motosafe",
@@ -121,7 +121,7 @@ export default {
         },
         {
           id: 7,
-          link: "https://calcadosdobrasil.com.br/marca/ecoboots",
+          link: "https://bracol.pro/site/product/search?q=eCOBOOTS+",
           path: "ecoboots.svg",
           width: "130px",
           empresa: "ecoboots",
@@ -158,7 +158,7 @@ export default {
         },
         {
           id: 10,
-          link: "https://volkdobrasil.com.br/",
+          link: "https://henlau.com.br/",
           path: "henlau.png",
           width: "130px",
           empresa: "Henlau",
