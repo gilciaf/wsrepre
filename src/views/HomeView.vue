@@ -36,7 +36,7 @@ export default {
             'steelflex.png', 
             'moov.svg', 
             'maxxi.png', 
-            'motosafe.png',
+            'bustest.png',
             'ecoboots.svg',
             'volkdobrasil.png',
             'brascamp.png',
