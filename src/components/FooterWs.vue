@@ -5,7 +5,7 @@ vue
     <div class="extrutura">
       <div class="address">
         <div class="logo">
-          <img src="../assets/img/ws/WS-logo.svg" width="88%" alt="Logo WS" />
+          <img src="../assets/img/ws/wslogo.png" width="70%" alt="Logo WS" />
         </div>
         <h3 style="color: white">WS Representações</h3>
         <h4>Rua Adolfo Fantozzi, 490</h4>
@@ -79,13 +79,16 @@ export default {};
     .address {
       color: white;
       .logo {
-        background-color: white;
-        padding: 2%;
+        //background-color: white;
+        padding: 2% 2% 2% 0;
         width: 28%;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 10px;
+      img{
+        margin-right: 21%
+      }
       }
     }
   }

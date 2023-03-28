@@ -3,10 +3,10 @@
     <BannerComponent class="banner" />
     <CarrosselComponent2 class="carousel"/>
     <TextosDescritivos />
-    <v-row class="marcas">
-       <img 
+    <v-row  class="marcas">
+       <img
             v-for="(logo, index) in paths" :key="index"
-            :src="'../img/ws/' + logo"
+            :src="`../img/ws/` + logo"
             width="50%"
             alt="logos"
           />
@@ -32,11 +32,11 @@ export default {
     return {
       paths:[
             'bracol.svg', 
-            'fujiwara.png', 
-            'steelflex.png', 
-            'moov.svg', 
-            'maxxi.png', 
-            'bustest.png',
+            'fujiwara.png',
+            'steelflex.png',
+            'moov.svg',
+            'maxxi.png',
+            'libus.svg',
             'ecoboots.svg',
             'volkdobrasil.png',
             'brascamp.png',
@@ -46,7 +46,6 @@ export default {
             'BLS.png',
             'univet.png',
             'athenas.svg'
-            
             ]
     }
   }

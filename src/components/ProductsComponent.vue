@@ -111,7 +111,7 @@ export default {
         {
           id: 6,
           link: "https://www.libus.com.br",
-          path: "bustest.png",
+          path: "libus.svg",
           width: "130px",
           empresa: "LIBUS",
           title: "",
@@ -305,8 +305,8 @@ export default {
       margin-top: 0.7%;
       padding: 1%;
       .card {
-        padding: 7%;
-        height: 360px;
+        padding:4% 7%;
+        height: 377px;
         .title {
           font-size: 17pt;
           color:#cf0000;
