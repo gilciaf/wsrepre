@@ -2,7 +2,7 @@
   <div class="main">
     <div class="form">
       <h4>Mande-nos sua mensagem</h4>
-      <form method="POST" action="https://ciaf.com.br/gilvan@ciaf.com.br">
+      <form method="POST" action="https://wsepi.com.br/SendMail.php">
         <v-text-field
           label="Nome:"
           type="text"
@@ -23,7 +23,7 @@
           placeholder="Seu e-mail"
         />
 
-        <v-textarea label="Sua Mensagem:" row="6" class="message"></v-textarea>
+        <v-textarea label="Sua Mensagem:" name="message" row="6" class="message"></v-textarea>
         <v-btn class="primary" type="submit">Enviar</v-btn>
       </form>
     </div>
@@ -31,7 +31,7 @@
       <h3 class="mb-3">Outras opções para contato:</h3>
       <v-card elevation="7" class="card-contato">
         <h3 style="text-align: center; margin-top: 1.4%">
-          Vagner - Junior - Amanda
+          Vagner - Junior - Amanda - Julia
         </h3>
         <div class="contato">
           <img
@@ -48,6 +48,14 @@
             alt="whatsapp"
           />
           <h4 class="mt-2">vendas@wsepi.com.br</h4>
+        </div>
+        <div class="contato">
+          <img
+            src="../assets/img/footer/email-3.svg"
+            width="20px"
+            alt="whatsapp"
+          />
+          <h4 class="mt-2">contato@wsepi.com.br</h4>
         </div>
         <div class="contato">
           <img
@@ -133,7 +141,7 @@ export default {};
   }
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 442px) {
   .main {
     margin-top:4%;
     flex-direction: column;

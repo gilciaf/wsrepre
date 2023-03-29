@@ -51,7 +51,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 442px) {
   .main {
     width: 400px;    
   }

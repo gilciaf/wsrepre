@@ -85,7 +85,7 @@ export default {
     display: none;
   }
 }
-@media screen and (max-width:412px) {
+@media screen and (max-width:442px) {
   .menu {
     .icon-menu {
       display: block;

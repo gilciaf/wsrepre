@@ -4,7 +4,7 @@
     <div class="text">
       <div class="topo">
         <h2>Sobre Nós:</h2>
-        <img src="../assets/img/ws/WS-logo.svg" alt="Logo">
+        <img src="../assets/img/ws/WS-logo.png"  alt="Logo">
       </div>
       <p>
         Especializada no mercado de Equipamentos de Proteção Individual( EPI ) a
@@ -67,6 +67,7 @@ export default {};
     .topo{
       img{
         width: 28%;
+        margin-top:-1.4%;
       }
     }
     h3 {
@@ -86,9 +87,16 @@ export default {};
     border-right: solid 14px #cf0000;
   }
 }
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 442px) {
   .main {
     grid-template-columns: 9% 82% 9%;
+    .text{
+      .topo{
+        .img{
+          margin-top: 1%;
+        }
+      }
+    }
   }
 }
 </style>

@@ -58,7 +58,7 @@ export default {
       border-right: solid 14px #ff0000;
   }
 }
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 442px) {
  .main { 
   grid-template-columns: 9% 82% 9%;
   .text {

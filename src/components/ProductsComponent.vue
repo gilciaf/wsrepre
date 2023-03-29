@@ -339,7 +339,7 @@ export default {
     }
   }
 }
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 442px) {
   .main {
     margin-top: 2.1%;
     .produtos {

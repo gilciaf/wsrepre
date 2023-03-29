@@ -12,7 +12,7 @@ export default {
 
 <style lang="scss" scoped>
 // 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 442px) {
   .main {
   margin-top:0.7%;
 }
